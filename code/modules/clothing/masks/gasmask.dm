@@ -309,3 +309,11 @@ obj/item/clothing/mask/gas/clown_hat/attack_self(mob/user)
 	alloweat = 1
 	icon_state = "owl"
 	can_flip = null
+
+/obj/item/clothing/mask/gas/shrek
+	name = "shrek mask"
+	desc = "Shrek is love, Shrek is life"
+	alloweat = 0
+	icon_state = "shrek"
+	item_state = "shrek"
+	can_flip = null
